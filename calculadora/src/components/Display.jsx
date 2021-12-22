@@ -1,5 +1,8 @@
+/* eslint-disable import/no-anonymous-default-export */
 import React from "react";
 import './Display.css'
 
 export default props => 
-    <display className = "display">{props.value}</display>
+    <div className = "display">{props.value}</div>
+
+    
